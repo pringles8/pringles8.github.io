@@ -1,9 +1,9 @@
 title: Priyank Shelat
-logo: /assets/img/logo.png 
-description: Hello, I am a new grad looking for opportunities to learn and grow. 
+# logo: /assets/img/logo.png 
+description: Hello, I am a new grad looking for opportunities to learn and grow.<br>
   I aspire to be a full stack data scientist, if there is such a thing.
   <br><br>
-  <a href="https://www.linkedin.com/in/priyank-s-2a94118a/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/priyank-s-2a94118a/">View My LinkedIn Profile</a><br>
   <a href="https://priyank-personal-webpage.herokuapp.com/index.html">And My "Website"</a> 
 google_analytics:
 theme: jekyll-theme-minimal
