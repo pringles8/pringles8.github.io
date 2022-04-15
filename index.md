@@ -1,7 +1,22 @@
 ---
 layout: default
 ---
+# Data Science Portfolio
 
+This is the most up-to-date location for personal and school projects that I want to display. I do have many that I do not display (either because they are incomplete, in progress, or for my personal use, yktv). I hope it gives a good sense of what I can do and where my skills are at. I aim for them to be concise snips of presentations - quick and easy-to-digest. If you have any criticism, feel free to message me on LinkedIn that's linked on the sidebar or my email which is on my resume at the very bottom.
+
+## Air Quality Analysis
+
+## Mars Rover Classification
+
+##
+
+
+
+
+
+
+--------------------------------------------------------------------------
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
