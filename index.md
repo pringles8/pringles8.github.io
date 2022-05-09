@@ -27,11 +27,9 @@ For this project, my team built out the game, a simple UI, and four solvers/solv
 
   Our approach was to learn a policy once then quickly make guesses by reusing the learned policy. We also sped up the process and reduced the Q-matrix size by only calculating the values of the state-action pairs that were seen during training rather than for all pairs. Since a single policy with this idea of state would align with only a single answer word, the idea is to update the policy with multiple target words. This means the policy will not converge, but our goal is to find the words that have the highest possible utility for the most answers. Many reinforcement learning(RL) agents rely on the problem being a Markov decision process(MDP) however this description of the problem is not and thus this could have ended very badly. It worked however the results were very poor.
 
-### Our Results
-![](/images/cmp_word_length.png)
-
-![](/images/wordle_cmp_algos.png)
-
+### Our Results  
+![](/images/cmp_word_length.jpg)  
+![](/images/wordle_cmp_algos.jpg)  
 1. Max Entropy either performs really well or really poorly. Though this algorithm has the lowest win rate, it also takes the least amount of guesses if the algorithm wins that round. This accuracy variation is unique to this algorithm.
 2. Aggregated Frequency is the top performer. This algorithm performs well across the board while maintaining one of the lowest average run times so it is determined to be efficient. It also has the highest win rate.
 3. The Genetic algorithm performs second best. The metrics for Genetic algorithm performance are in line with Aggregated Frequency except slightly lower. It is a good alternative solver and still much better than human performance.
@@ -39,7 +37,6 @@ For this project, my team built out the game, a simple UI, and four solvers/solv
 5. Q Learning has suboptimal run time performance. This makes Q Learning not a viable option for solving the game as it takes significantly more time to run than all other algorithms to the extent that we are barely able to visual all other average run times for the algorithms. Additionally, we note that Q Learning is only 3rd best in terms of win rate and takes the most number of guesses whether the game is won or lost. Hence, Q Learning is the least ideal to apply to the game of Wordle.
 
 ### Repo & Report
-
 <a href="/pdfs/Priyank_Shelat_Team8_Project_Report.pdf" target="_blank">Project Report</a>  
 <a href="https://github.com/emilyjcosta5/AI-Final-Project" target="_blank">Github Repo</a>
 
