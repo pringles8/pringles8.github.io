@@ -23,14 +23,15 @@ For this project, my team built out the game, a simple UI, and four solvers/solv
 
 - Q-learning was also attempted to decide optimal policy and make decisions. Our state is the previously guessed word. The reward for a correct word is 10 and for an incorrect word is -1. Our actions will be picking which word to guess next. This gives a Q-value matrix of size n-squared where n is the size of the word list. We used the Q-learning update policy:
 
-Q(s,a) ← Q(s,a) + α(R(s) + λ(max_a′_(Q(s′,a′)) − Q(s,a)))
+  Q(s,a) ← Q(s,a) + α(R(s) + λ(max_a′_(Q(s′,a′)) − Q(s,a)))
 
-Our approach was to learn a policy once then quickly make guesses by reusing the learned policy. We also sped up the process and reduced the Q-matrix size by only calculating the values of the state-action pairs that were seen during training rather than for all pairs. Since a single policy with this idea of state would align with only a single answer word, the idea is to update the policy with multiple target words. This means the policy will not converge, but our goal is to find the words that have the highest possible utility for the most answers. Many reinforcement learning(RL) agents rely on the problem being a Markov decision process(MDP) however this description of the problem is not and thus this could have ended very badly. It worked however the results were very poor.
+  Our approach was to learn a policy once then quickly make guesses by reusing the learned policy. We also sped up the process and reduced the Q-matrix size by only calculating the values of the state-action pairs that were seen during training rather than for all pairs. Since a single policy with this idea of state would align with only a single answer word, the idea is to update the policy with multiple target words. This means the policy will not converge, but our goal is to find the words that have the highest possible utility for the most answers. Many reinforcement learning(RL) agents rely on the problem being a Markov decision process(MDP) however this description of the problem is not and thus this could have ended very badly. It worked however the results were very poor.
 
 ### Our Results
+![](/images/cmp_word_length.png)
 
-![](/images/cmp_word_length.png)  
-![](/images/wordle_cmp_algos.png)  
+![](/images/wordle_cmp_algos.png)
+
 1. Max Entropy either performs really well or really poorly. Though this algorithm has the lowest win rate, it also takes the least amount of guesses if the algorithm wins that round. This accuracy variation is unique to this algorithm.
 2. Aggregated Frequency is the top performer. This algorithm performs well across the board while maintaining one of the lowest average run times so it is determined to be efficient. It also has the highest win rate.
 3. The Genetic algorithm performs second best. The metrics for Genetic algorithm performance are in line with Aggregated Frequency except slightly lower. It is a good alternative solver and still much better than human performance.
