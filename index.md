@@ -5,6 +5,8 @@ layout: default
 
 This is the most up-to-date location for personal and school projects that I want to display. I do have projects that I do not display (either because they are incomplete, in progress, or for my personal use). I hope it gives a good sense of what I can do and where my skills are at. I aim for them to be concise snips of presentations - quick and easy-to-digest. If you have any criticism, feel free to message me on LinkedIn, which is linked on the sidebar, or my email, which is on my resume at the very bottom.
 
+<hr />
+
 ## Wordle Game AI
 
 This project was done as part of my foundations of artificial intelligence class. Our motivation came from one of my teammates being a New York Times reader who saw their acquisition of the Wordle game and the surge in automated solvers. There are plenty of methods applied to the game with repos online. My team used existing methods as well as some which we wrote up from our class textbook - 'Artificial Intelligence: A Modern Approach' by Russel & Norvig.
@@ -42,6 +44,8 @@ For this project, my team built out the game, a simple UI, and four solvers/solv
 <a href="/pdfs/Priyank_Shelat_Team8_Project_Report.pdf" target="_blank">Project Report</a>  
 <a href="https://github.com/emilyjcosta5/AI-Final-Project" target="_blank">Github Repo</a>
 
+<hr />
+
 ## Computer Vision Micro-Projects
 These are a series of smaller projects done as part of my computer vision class. I will give a brief description of each and link my repo for them at the end.
 
@@ -51,9 +55,15 @@ These are a series of smaller projects done as part of my computer vision class.
 
 ### Stereo Vision Dense Disparity Mapping
 
+<hr />
+
 ## Air Quality Analysis
 
+<hr />
+
 ## Mars Rover Classification
+
+<hr />
 
 ## Audio Source Separation
 
