@@ -29,8 +29,8 @@ Our approach was to learn a policy once then quickly make guesses by reusing the
 
 ### Our Results
 
-![](/images/cmp_word_length.png)
-![](/images/wordle_cmp_algos.png)
+![](/images/cmp_word_length.png)  
+![](/images/wordle_cmp_algos.png)  
 1. Max Entropy either performs really well or really poorly. Though this algorithm has the lowest win rate, it also takes the least amount of guesses if the algorithm wins that round. This accuracy variation is unique to this algorithm.
 2. Aggregated Frequency is the top performer. This algorithm performs well across the board while maintaining one of the lowest average run times so it is determined to be efficient. It also has the highest win rate.
 3. The Genetic algorithm performs second best. The metrics for Genetic algorithm performance are in line with Aggregated Frequency except slightly lower. It is a good alternative solver and still much better than human performance.
@@ -39,7 +39,7 @@ Our approach was to learn a policy once then quickly make guesses by reusing the
 
 ### Repo & Report
 
-<a href="/pdfs/Priyank_Shelat_Team8_Project_Report.pdf" target="_blank">Project Report</a>
+<a href="/pdfs/Priyank_Shelat_Team8_Project_Report.pdf" target="_blank">Project Report</a>  
 <a href="https://github.com/emilyjcosta5/AI-Final-Project" target="_blank">Github Repo</a>
 
 ## Computer Vision Micro-Projects
