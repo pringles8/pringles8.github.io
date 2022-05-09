@@ -19,9 +19,9 @@ For this project, my team built out the game, a simple UI, and four solvers/solv
 
 ### An Explanation of My Methods
 
-The genetic algorithm is based on genetics and how genes combine and mutate. There are five main parts to this method - initialization, evaluation, selection, crossover, and mutation. We initialize by picking the first two guesses randomly. From here we loop the following steps. Each word is given a fitness based on how many correct letters are guessed. For each uncolored letter, 1 fitness point is removed. For each yellow letter, 1 fitness point is added. For each green letter, 2 fitness points are added. Each new guess word has its fitness calculated. Then we select the 2 fittest, randomly combine them, and mutate each letter with some small probability.
+- The genetic algorithm is based on genetics and how genes combine and mutate. There are five main parts to this method - initialization, evaluation, selection, crossover, and mutation. We initialize by picking the first two guesses randomly. From here we loop the following steps. Each word is given a fitness based on how many correct letters are guessed. For each uncolored letter, 1 fitness point is removed. For each yellow letter, 1 fitness point is added. For each green letter, 2 fitness points are added. Each new guess word has its fitness calculated. Then we select the 2 fittest, randomly combine them, and mutate each letter with some small probability.
 
-Q-learning was also attempted to decide optimal policy and make decisions. Our state is the previously guessed word. The reward for a correct word is 10 and for an incorrect word is -1. Our actions will be picking which word to guess next. This gives a Q-value matrix of size n-squared where n is the size of the word list. We used the Q-learning update policy:
+- Q-learning was also attempted to decide optimal policy and make decisions. Our state is the previously guessed word. The reward for a correct word is 10 and for an incorrect word is -1. Our actions will be picking which word to guess next. This gives a Q-value matrix of size n-squared where n is the size of the word list. We used the Q-learning update policy:
 
 Q(s,a) ← Q(s,a) + α(R(s) + λ(max_a′_(Q(s′,a′)) − Q(s,a)))
 
@@ -29,8 +29,18 @@ Our approach was to learn a policy once then quickly make guesses by reusing the
 
 ### Our Results
 
+![](/images/cmp_word_length.png)
+![](/images/wordle_cmp_algos.png)
+1. Max Entropy either performs really well or really poorly. Though this algorithm has the lowest win rate, it also takes the least amount of guesses if the algorithm wins that round. This accuracy variation is unique to this algorithm.
+2. Aggregated Frequency is the top performer. This algorithm performs well across the board while maintaining one of the lowest average run times so it is determined to be efficient. It also has the highest win rate.
+3. The Genetic algorithm performs second best. The metrics for Genetic algorithm performance are in line with Aggregated Frequency except slightly lower. It is a good alternative solver and still much better than human performance.
+4. The "Human" performs decently. This is consistent with what most of us experience in a given game of Wordle when solving it ourselves. We win most games after 4-5 guesses.
+5. Q Learning has suboptimal run time performance. This makes Q Learning not a viable option for solving the game as it takes significantly more time to run than all other algorithms to the extent that we are barely able to visual all other average run times for the algorithms. Additionally, we note that Q Learning is only 3rd best in terms of win rate and takes the most number of guesses whether the game is won or lost. Hence, Q Learning is the least ideal to apply to the game of Wordle.
+
 ### Repo & Report
-<a href="/pdfs/Priyank_Shelat_Team8_Project_Report.pdf">Project Report</a>
+
+<a href="/pdfs/Priyank_Shelat_Team8_Project_Report.pdf" target="_blank">Project Report</a>
+<a href="https://github.com/emilyjcosta5/AI-Final-Project" target="_blank">Github Repo</a>
 
 ## Computer Vision Micro-Projects
 These are a series of smaller projects done as part of my computer vision class. I will give a brief description of each and link my repo for them at the end.
