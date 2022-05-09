@@ -13,7 +13,7 @@ This project was done as part of my foundations of artificial intelligence class
 
 Wordle is a word guessing game. The most common variant has a word-of-the-day. This word is usually five letters long. The game allows six guesses. After each guess, the letters are shaded by the game to give the player information. A green letter means that the letter is correct and in the right position. A yellow letter means the word contains that letter but it is not positioned correctly. Lastly, an uncolored letter is not in the word.
 
-!(/images/game_example.png)
+![](/images/game_example.png)
 
 For this project, my team built out the game, a simple UI, and four solvers/solving agents. The whole project was done in python and the repository is linked below. I focused on two types of solvers that I found interesting - a genetic algorithm based solver and a Q-learning agent.
 
@@ -30,7 +30,7 @@ Our approach was to learn a policy once then quickly make guesses by reusing the
 ### Our Results
 
 ### Repo & Report
-<a href="/pdfs/Priyank_Shelat_Team8_Project_Report.pdf"></a>
+<a href="/pdfs/Priyank_Shelat_Team8_Project_Report.pdf">Project Report</a>
 
 ## Computer Vision Micro-Projects
 These are a series of smaller projects done as part of my computer vision class. I will give a brief description of each and link my repo for them at the end.
