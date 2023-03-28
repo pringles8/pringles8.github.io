@@ -1,6 +1,6 @@
 title: Priyank Shelat
-# logo: /assets/img/logo.png
-description: Hello, I am a new graduate looking for opportunities to learn and grow.
+logo: ./images/Linkedin.jpg
+description: Hello, I am an analyst and programmer looking for opportunities to learn and grow.
   My current interests include computer vision and image analytics as well as scientific simulation (recent development).
   Hopefully, some of my projects in this portfolio will help show my ability and drive.
   <br><br>
@@ -8,5 +8,6 @@ description: Hello, I am a new graduate looking for opportunities to learn and g
   I love learning about and discussing new ideas. You could say that talking is a hobby so feel free to reach out to me for anything.
   <br><br>
   <a href="https://www.linkedin.com/in/priyank-s-2a94118a/">View My LinkedIn Profile</a><br>
+  <a href="/pdfs/Priyank Shelat - Resume.pdf" target="_blank">My Resume</a>
 google_analytics:
 theme: jekyll-theme-minimal

@@ -3,7 +3,11 @@ layout: default
 ---
 # Data Science Portfolio
 
-This is the most up-to-date location for personal and school projects that I want to display. I do have projects that I do not display (either because they are incomplete, in progress, or for my personal use). I hope it gives a good sense of what I can do and where my skills are at. I aim for them to be concise snips of presentations - quick and easy-to-digest. If you have any criticism, feel free to message me on LinkedIn, which is linked on the sidebar, or my email, which is on my resume at the very bottom.
+This is the most up-to-date location for my personal and school projects. 
+I do have projects that I do not display (either because they are incomplete, in progress, or for my personal use). 
+I hope it gives a good sense of what I can do and where my skills are at. 
+I aim for them to be concise snips of projects & presentations - quick and easy-to-digest. 
+If you have any criticism, feel free to message me on LinkedIn or my email (via my resume) both of which are linked on the sidebar.
 
 <hr />
 
