@@ -11,6 +11,41 @@ If you have any criticism, feel free to message me on LinkedIn or my email (via 
 
 <hr />
 
+## Stock Purchasing Script
+
+Although this is not as complex or math and programming
+heavy as some of my other projects, it fills a need that
+arose as I was analyzing one of my trading strategies.
+
+### Problem
+
+I stumbled upon a group of arbitragers toward the end of 2021 
+and a strategy that scaled horizontally across accounts. After 
+slowly building up my confidence in the group and strategy, I 
+went all in and started maxing out the strategy. Since you need
+multiple accounts for it to scale, the challenge became apparent -
+you need to repeat the buying/selling/tracking process for each 
+stock for each account. The strategy is still fairly lucrative 
+manually but as I analyzed it 18 months in, I saw that the time-value
+of the strategy could be doubled with some automation.
+
+### Solution
+
+I created a python script using broker APIs and Selenium to create
+a closed-loop system to log-in, transact, and log-out. The current 
+state of the script reduces the time by 30% and is still a work-in-progress.
+
+### Future Work
+
+The transactional part of the script has progressed well. I am currently
+working to finish the transactional automation with hopes to get tracking and 
+analysis automated by the end of the year.
+
+### Repo & Report
+<a href="https://github.com/pringles8/RS-Autobot" target="_blank">Github Repo</a>
+
+<hr />
+
 ## Wordle Game AI
 
 This project was done as part of my foundations of artificial intelligence class. Our motivation came from one of my teammates being a New York Times reader who saw their acquisition of the Wordle game and the surge in automated solvers. There are plenty of methods applied to the game with repos online. My team used existing methods as well as some which we wrote up from our class textbook - 'Artificial Intelligence: A Modern Approach' by Russel & Norvig.
